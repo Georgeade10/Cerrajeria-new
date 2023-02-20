@@ -32,10 +32,12 @@ const Gallery = () => {
           entre en pánico, estamos a solo una llamada de distancia. Respondemos
           rápido y resolveremos cualquier problema por usted.
         </p>
-        <button type='button' className='custom__button'>
-          <BsWhatsapp fontSize={27} className='contact__icon' />
-          693006812
-        </button>
+        <a href='https://wa.me/message/SHKPI3H6X3KEO1' className='p__opensans'>
+          <button type='button' className='custom__button'>
+            <BsWhatsapp fontSize={27} className='contact__icon' />
+            693006812
+          </button>
+        </a>
       </div>
       <div className='app__gallery-images'>
         <div className='app__gallery-images_container' ref={scrollRef}>

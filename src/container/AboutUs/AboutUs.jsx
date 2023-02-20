@@ -19,10 +19,12 @@ const AboutUs = () => (
           Nuestro valor fundamental es la excelencia y la diligencia para servir
           y deleitar a nuestros clientes.
         </p>
-        <button type='button' className='custom__button'>
-          <BsWhatsapp fontSize={27} className='contact__icon' />
-          693006812
-        </button>
+        <a href='https://wa.me/message/SHKPI3H6X3KEO1' className='p__opensans'>
+          <button type='button' className='custom__button'>
+            <BsWhatsapp fontSize={27} className='contact__icon' />
+            693006812
+          </button>
+        </a>
       </div>
 
       <div className='app__aboutus-content_knife flex__center'>

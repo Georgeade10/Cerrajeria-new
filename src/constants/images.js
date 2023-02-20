@@ -38,9 +38,11 @@ import emergencyIcon from '../assets/emergencyIcon.png';
 import safetyIcon from '../assets/safetyIcon.png';
 import heroImage from '../assets/heroImage.png';
 import findUsImg from '../assets/findUsImg.png';
+import automotive from '../assets/automotive.svg';
 
 export default {
   bg,
+  automotive,
   heroImage,
   findUsImg,
   priceIcon,

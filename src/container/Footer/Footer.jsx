@@ -1,8 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-=======
-
->>>>>>> dacd38ba79b2b5c2f1b37304e91d4b91ed2913d9
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';

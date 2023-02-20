@@ -62,10 +62,12 @@ const SpecialMenu = () => (
 
     <div style={{ marginTop: 15 }}>
       <div className='custom__button-flex'>
-        <button type='button' className='custom__button'>
-          <BsWhatsapp fontSize={27} className='contact__icon' />
-          693006812
-        </button>
+        <a href='https://wa.me/message/SHKPI3H6X3KEO1' className='p__opensans'>
+          <button type='button' className='custom__button'>
+            <BsWhatsapp fontSize={27} className='contact__icon' />
+            693006812
+          </button>
+        </a>
       </div>
     </div>
   </div>
